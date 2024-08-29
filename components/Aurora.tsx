@@ -19,11 +19,11 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
         <div className="text-3xl md:text-7xl font-bold text-[var(--secondary)] text-center">
-        Hi, I'm Lucas
+        Hi, I&apos;m Lucas
        
         </div>
         <div className="font-extralight text-base md:text-4xl text-[var(--secondary)] py-4">
-        I'm a Senior Fullstack Blockchain Engineer
+        I&apos;m a Senior Fullstack Blockchain Engineer
         </div>
         <button className="cssbutton  ">
           Contact Now
