@@ -25,9 +25,9 @@ export function AuroraBackgroundDemo() {
         <div className="font-extralight text-base md:text-4xl text-[var(--secondary)] py-4">
         I&apos;m a Senior Fullstack Blockchain Engineer
         </div>
-        <button className="cssbutton  ">
+        <a href="https://www.linkedin.com/in/lucas-lee-a54185325/" target="_blank"  className="cssbutton  ">
           Contact Now
-        </button>
+        </a>
       </motion.div>
     </AuroraBackground>
   );

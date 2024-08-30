@@ -1,7 +1,7 @@
 import About from "@/components/About";
 import { AuroraBackgroundDemo } from "@/components/Aurora";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxes";
-import Image from "next/image";
+import { ExpandableCardDemo } from "@/components/ProjectCards";
 
 export default function Home() {
   return (
@@ -9,12 +9,13 @@ export default function Home() {
       <section className=" " id="services">
         <AuroraBackgroundDemo />
       </section>
-      <section className="bg-green-500 h-screen" id="about">
-        <About/>
+      <section className="bg-[var(--primary)] p-4" id="about">
+        <ExpandableCardDemo />
       </section>
-      <section className="bg-blue-500 h-screen" id="contact">
+
+      <section className="bg-blue-500 " id="contact">
+        <BackgroundBoxesDemo />
       </section>
-        <BackgroundBoxesDemo/>
     </main>
   );
 }

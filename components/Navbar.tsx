@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Navbar() {
   const [visible, setVisible] = useState(true);
   const [theme, setTheme] = useState({
-    primary: "#000",
+    primary: "#0f172a",
     secondary: "#ffffff",
 
     sunVisible: true,
@@ -18,8 +18,8 @@ export default function Navbar() {
     const updatedTheme = {
       sunVisible: !theme.sunVisible,
       moonVisible: !theme.moonVisible,
-      primary: theme.primary === "#000" ? "#FFFBE6" : "#000",
-      secondary: theme.secondary === "#ffffff" ? "#000" : "#ffffff",
+      primary: theme.primary === "#FFFBE6" ? "#0f172a" : "#FFFBE6",
+      secondary: theme.secondary === "#ffffff" ? "#0f172a" : "#ffffff",
     };
     setTheme(updatedTheme);
   };
@@ -31,7 +31,7 @@ export default function Navbar() {
   }, [theme]);
 
   return (
-    <div className=" fixed z-[6000] w-screen border-b border-white/[0.3] bg-[var(--primary)] text-[var(--secondary)]">
+    <div className=" fixed shadow-[var(--secondary)]/[0.5] shadow-md z-[6000] w-screen bg-[var(--primary)] text-[var(--secondary)]">
       <div className="bg-blue px-6 py-2 flex justify-between items-center w-full">
         <div className="logo text-2xl font-bold">Lucas Lee</div>
         <button
