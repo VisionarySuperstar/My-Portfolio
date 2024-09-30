@@ -3,8 +3,8 @@ export const experienceData = [
         id: 1,
         company: 'FREELANCING',
         jobtitle: 'Senior Blockchain Developer',
-        startYear: 'Dec 2022',
-        endYear: 'Mar 2024'
+        startYear: 'Apr 2024',
+        endYear: 'Present'
     },
     {
         id: 2,
