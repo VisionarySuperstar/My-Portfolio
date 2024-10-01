@@ -25,7 +25,7 @@ export const projectsData = [
         tags: ['Moralis API', 'MultiChain', 'ICO'],
         code: 'https://github.com/VisionarySuperstar',
         demo: 'https://vulcanpad.tech/',
-        image: two
+        image: three
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export const projectsData = [
         tags: ['Solidity', 'Presale', 'MemeToken'],
         code: 'https://github.com/VisionarySuperstar',
         demo: 'https://mars-wtf-0-0-0.vercel.app/',
-        image: three
+        image: two
     },
 ]
 
