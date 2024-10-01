@@ -1,31 +1,32 @@
 /* eslint-disable */
-import { BiShoppingBag, BiPencil } from "react-icons/bi";
-import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer, FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+// import { BiShoppingBag, BiPencil } from "react-icons/bi";
+// import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
+// import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
+// import { FaInternetExplorer, FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { LooksRare2, EthMono, DefiLlama, CoinbaseMono } from 'react-web3-icons'
 
 
 
 export const servicesData = [
     {
         id: 1,
-        title: 'ICO',
-        icon: <BiShoppingBag />
+        title: 'NFT Marketplace',
+        icon: <LooksRare2 />
     },
     {
         id: 2,
-        title: 'IDO',
-        icon: <BiPencil />
+        title: 'ICO Website',
+        icon: <EthMono />
     },
     {
         id: 3,
         title: 'DeFi',
-        icon: <AiOutlineMail />
+        icon: <DefiLlama />
     },
     {
         id: 4,
-        title: 'DApp',
-        icon: <FaInternetExplorer />
+        title: 'Dex',
+        icon: <CoinbaseMono />
     },
     // {
     //     id: 5,

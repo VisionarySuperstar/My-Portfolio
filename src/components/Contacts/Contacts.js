@@ -6,16 +6,18 @@ import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
     FaTwitter,
-    FaLinkedinIn,
+    // FaLinkedinIn,
     FaGithub,
-    FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
-    FaInstagram,
-    FaGitlab,
-    FaMediumM,
+    // FaYoutube,
+    // FaBloggerB,
+    // FaRedditAlien,
+    // FaStackOverflow,
+    // FaCodepen,
+    // FaInstagram,
+    // FaGitlab,
+    // FaMediumM,
+    FaTelegram,
+    FaDiscord
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -292,7 +294,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
-                        <a
+                        {/* <a
                             href={`tel:${contactsData.phone}`}
                             className='personal-details'
                         >
@@ -302,7 +304,7 @@ function Contacts() {
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.phone}
                             </p>
-                        </a>
+                        </a> */}
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
@@ -333,26 +335,26 @@ function Contacts() {
                                     <FaGithub aria-label='GitHub' />
                                 </a>
                             )}
-                            {/* {socialsData.linkedIn && (
+                            {socialsData.telegram && (
                                 <a
-                                    href={socialsData.linkedIn}
+                                    href={socialsData.telegram}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
+                                    <FaTelegram aria-label='Telegram' />
                                 </a>
-                            )} */}
-                            {/* {socialsData.instagram && (
+                            )}
+                            {socialsData.discord && (
                                 <a
-                                    href={socialsData.instagram}
+                                    href={socialsData.discord}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaInstagram aria-label='Instagram' />
+                                    <FaDiscord aria-label='Discord' />
                                 </a>
-                            )} */}
+                            )}
                             {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}

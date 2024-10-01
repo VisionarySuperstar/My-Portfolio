@@ -1,3 +1,4 @@
+
 export const socialsData = {
     github: 'https://github.com/VisionarySuperstar',
     facebook: 'https://www.facebook.com/',
@@ -10,5 +11,7 @@ export const socialsData = {
     medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
-    youtube: 'https://youtube.com/'
+    youtube: 'https://youtube.com/',
+    telegram: 'https://t.me/lucaslee1127/',
+    discord: 'https://discord.gg/kKZPZaJf/',
 }

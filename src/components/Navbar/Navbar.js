@@ -211,23 +211,23 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
-                            <NavLink
-                                to='/#resume'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Resume
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
+                        {/* <Fade left>
+                                <NavLink
+                                    to='/#resume'
+                                    smooth={true}
+                                    spy='true'
+                                    duration={2000}
+                                >
+                                    <div className={classes.drawerItem}>
+                                        <HiDocumentText
+                                            className={classes.drawerIcon}
+                                        />
+                                        <span className={classes.drawerLinks}>
+                                            Experience
+                                        </span>
+                                    </div>
+                                </NavLink>
+                            </Fade> */}
 
                         <Fade left>
                             <NavLink
